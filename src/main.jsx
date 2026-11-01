@@ -3,11 +3,11 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 const BUSINESSES = [
-  { id:"cookies",name:"Cookie Club",icon:"🍪",product:"cookie boxes",unitCost:4,defaultPrice:9,appeal:6 },
-  { id:"shirts",name:"Bright Tees",icon:"👕",product:"T-shirts",unitCost:9,defaultPrice:20,appeal:5 },
+  { id:"cookies",name:"Cookie for Aura",icon:"🍪",product:"cookie boxes",unitCost:4,defaultPrice:9,appeal:6 },
+  { id:"shirts",name:"Tie-dye land",icon:"👕",product:"T-shirts",unitCost:9,defaultPrice:20,appeal:5 },
   { id:"pets",name:"Happy Paws",icon:"🐕",product:"dog walks",unitCost:2,defaultPrice:12,appeal:7 },
   { id:"gaming",name:"Level Up Gear",icon:"🎮",product:"gaming accessories",unitCost:12,defaultPrice:27,appeal:6 },
-  { id:"eco",name:"Eco Makers",icon:"♻️",product:"recycled products",unitCost:7,defaultPrice:17,appeal:7 },
+  { id:"eco",name:"Matias & the Eco Makers",icon:"♻️",product:"recycled products",unitCost:7,defaultPrice:17,appeal:7 },
   { id:"app",name:"Pocket Apps",icon:"📱",product:"app subscriptions",unitCost:3,defaultPrice:10,appeal:5 }
 ];
 const EVENTS=[
